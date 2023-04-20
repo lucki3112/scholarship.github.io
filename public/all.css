@@ -1,0 +1,79 @@
+nav {
+    background-color: rgb(51, 51, 216);
+    color: white;
+}
+.navbar-brand,
+.nav-item {
+    color: white;
+}
+.navbar-brand:hover,
+.nav-item:hover {
+    color: white;
+}
+.container {
+    margin-top: 56px;
+}
+footer {
+    margin-top: 34px;
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+a {
+    text-decoration: none;
+}
+marquee {
+    margin-top: 56px;
+    background-color: black;
+    color: white;
+}
+.myform {
+    border: 2px solid rgb(231, 168, 168);
+    padding: 34px;
+    border-radius: 23px;
+}
+.hyper {
+    margin-top: 14px;
+}
+li {
+    list-style: none;
+}
+.details {
+    margin-top: 34px;
+}
+.sidenav {
+    border: 2px solid black;
+    padding: 34px;
+    border-radius: 23px;
+    background-color: bisque;
+}
+.nav-d {
+    float: left;
+    margin-left: 23px;
+}
+.nav {
+    border: 2px solid black;
+    padding: 13px;
+}
+.card {
+    margin-left: 13px;
+}
+.add {
+    border: 2px solid black;
+    padding: 23px;
+}
+.status{
+    border: 2px solid black;
+    padding: 13px;
+}
+.heading{
+    text-align: center;
+}
+.track{
+    border: 2px solid black;
+    padding: 54px;
+}
+
+.activity{
+    margin-left: 54px;
+}

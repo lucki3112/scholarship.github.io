@@ -1,0 +1,125 @@
+/*Designed By Rochona Ghosh*/
+/*********IMPORT FONTS**********/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body,
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+
+img.footer_img {
+    display: block;
+    background: #fff;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+.btn-search {
+    background-color: #202020;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    padding: 0.75rem 0.75rem;
+    border-style: solid;
+    border-color: #202020;
+    -webkit-animation: 0.8s ease;
+    animation: 0.8s ease;
+}
+.btn-search:link,
+.btn-search:visited {
+    color: #fff;
+}
+.btn-search:active,
+.btn-search:hover {
+    background-color: #202020;
+    color: #fff;
+    border-color: #202020;
+}
+.display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.image {
+    height: 100%;
+    width: 100%;
+}
+.img-area img {
+    height: 100%;
+    width: 100%;
+}
+figure img {
+    height: 100% !important;
+    border-radius: 9px;
+    width: auto;
+    max-width: 100%;
+}
+marquee {
+    height: 60px;
+    line-height: 55px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+figure.rounded {
+    position: relative;
+    transition: 0.5s;
+}
+figure.rounded:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(45 35 132 / 67%);
+    border-radius: 9px;
+    transition: 0.5s;
+}
+figure.rounded.district:before {
+    background: rgb(8 107 10 / 75%);
+}
+figure.rounded.student:before {
+    background: rgb(74 119 0 / 72%);
+}
+figure.rounded.state:before {
+    background: rgb(32 149 164 / 75%);
+}
+.dropdown-toggle::after {
+    display: none;
+}
+figure.rounded.institute:before {
+    background: rgb(45 35 132 / 67%);
+}
+figure.rounded h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: 0;
+    width: 100%;
+    padding: 0px 30px;
+}
+figure.rounded:hover {
+    transform: scale(1.05);
+}
+figure.rounded:hover:before {
+    background: transparent;
+}
+figure.rounded:hover h4 {
+    background: #2d2384;
+}
+
+
+
+
